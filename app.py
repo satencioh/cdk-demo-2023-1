@@ -2,6 +2,7 @@
 import os
 
 import aws_cdk as cdk
+from aws_cdk import DefaultStackSynthesizer
 
 from cdk_demo_2023_1.cdk_demo_2023_1_stack import CdkDemo20231Stack
 
@@ -20,7 +21,7 @@ CdkDemo20231Stack(app, "CdkDemo20231Stack",
     # Uncomment the next line if you know exactly what Account and Region you
     # want to deploy the stack to. */
 
-    #env=cdk.Environment(account='123456789012', region='us-east-1'),
+    env=cdk.Environment(account='839227026705', region='us-east-1'),
 
     # For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
     )
